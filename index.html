@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="an" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>TEDx Website </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper-8.4.4/package/swiper-bundle.min.css" />
+    <script src="swiper-8.4.4/package/swiper-bundle.min.js"></script>
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#hero-section">
+            <img class="logo" src="Img/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto moh">
+                <li class="nav-itme">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-itme">
+                    <a href="#speackr" class="nav-link">Speacker</a>
+                </li>
+                <li class="nav-itme">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-itme">
+                    <a href="#our-trip" class="nav-link">Our trip</a>
+                </li>
+                <li class="nav-itme">
+                    <a href="#contant" class="nav-link">Contant</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <header id="hero-section" class="hero-section">
+        <div class="text">
+            <h2><span>TEDx</span>SealineRd</h2>
+            <p>Independent event for the city of Aden</p>
+
+        </div>
+    </header>
+    <!--The web site tedx page tow-->
+    <section id="about" class="posts-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 ">
+                    <div class="tedx">
+                        <img src="img/TED%20PIC.png">
+                        <h1>TED</h1>
+                        <P>TED is a series of annual conferences that take place in California, the United State Of
+                            America, it was dedicated to all the work that deserve appreciation and care in the
+                            following fields ( Technology, Entertainment, Design ).</P>
+                        <li><a href="#">Read more</a></li>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 ">
+                    <div class="tedxsl">
+                        <img src="img/TEDx%20PIC.jpg">
+                        <h1>TED<span><sup>x</sup></span></h1>
+                        <P>Around ideas worth spreading, the idea of making TEDx conference as a local event came
+                            along. Its content and design is different and special form the others that speakers share
+                            their own experiences and thoughts.</P>
+                            <input type="checkbox" id="input">
+                        <li><label for="input">Read more</label></li>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 ">
+                    <div class="sealinerd">
+                        <img src="img/TEDxSealineRd.jpg">
+                        <h2>TED<sup>x </sup><span>SealineRd</span></h2>
+                        <P>This standard event came after the interest that has become popular for many companies,
+                            institutions, individuals and youth, especially at this time when we are in dire need of the
+                            creative Yemeni youth from various fields without exception, to communicate with them</P>
+                        <li><a href="#">Read more</a></li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--The web site tedx page three-->
+    <div id="team" class="team">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>الفريق</h1>
+                </div>
+                <div class="row team-img">
+                    <div class="col"><img src="img/TeamStructure.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--The web site tedx page for-->
+    <div id="speackr" class="Speacker">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>المتحدثين</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="spk-img">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                                <div class="swiper-slide"><img src="img/speacr.png"></div>
+                            </div>
+                            <div class="swiper-button-next" style="color: #ea3128;"></div>
+                            <div class="swiper-button-prev" style="color: #ea3128;"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                        <script>
+                            var swiper = new Swiper(".mySwiper", {
+                                breakpoints: {
+                                    300: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                                    },
+                                    640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                                    },
+                                    991: {
+                                slidesPerView: 3,
+                                spaceBetween: 10,
+                                    },
+                                },
+                                loop: true,
+                                loopFillGroupWithBlank: true,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                },
+                            });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--The web site tedx page five-->
+    <div class="talent">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>المواهب</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="ou-img">
+                        <!-- Swiper -->
+                        <div class="swiper out">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <label class="band1">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands1">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band2">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands2">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band3">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands3">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band4">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands4">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band5">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands5">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band6">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands6">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band7">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands7">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band8">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands8">شاهد</label>
+                                </div>
+                                <div class="swiper-slide">
+                                    <label class="band9">فرقة موسيقية</label> 
+                                    <img src="img/TED PIC.png">
+                                    <label class="bands9">شاهد</label>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next" style="color: #ea3128;"></div>
+                            <div class="swiper-button-prev" style="color: #ea3128;"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+                        <!-- Initialize Swiper -->
+                        <script>
+                            var swiper = new Swiper(".out", {
+                                breakpoints: {
+                                    300: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                                slidesPerGroup: 1,
+                                    },
+                                    640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                                slidesPerGroup: 2,
+                                    },
+                                    991: {
+                                slidesPerView: 3,
+                                spaceBetween: 10,
+                                slidesPerGroup: 3,
+                                    },
+                                },
+                                loop: true,
+                                loopFillGroupWithBlank: true,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                },
+                            });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--The web site tedx page sex-->
+    <div id="our-trip" class="our-trip">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>رحلتنا</h1>
+                </div>
+            </div>
+            <div class="trip">
+                <div class="row">
+                    <div class="col-2 col-sm-2.3 col-lg-2 trip1"><img src="img/id.png"></div>
+                    <div class="col-2 col-sm-2.3 col-lg-2 trip2"><img src="img/ran.png"></div>
+                    <div class="col-2 col-sm-2.3 col-lg-2 trip3"><img src="img/dash.png"></div>
+                    <div class="col-2 col-sm-2.3 col-lg-2 trip4"><img src="img/cam.png"></div>
+                    <div class="col-2 col-sm-2.3 col-lg-2 trip5"><img src="img/dowen-ziro.png"></div>
+                </div>
+                <div class="cam">
+                    <p>رغبة الوصول</p>
+                </div>
+                <div class="dowen">
+                    <p>تحت الصفر</p>
+                </div>
+                <div class="dash">
+                    <p>نقطة الحسم</p>
+                </div>
+                <div class="ran">
+                    <p>مرحلة الاهام</p>
+                </div>
+                <div class="id">
+                    <p>الأثر</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--The web site tedx page seven-->
+    <div class="grop">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>شركائنا</h1>
+                </div>
+            </div>
+            <div class="grop-sh">
+                <div class="row">
+                    <div class="swiper grop-h">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+                            <div class="swiper-slide"><img src="img/alkremy.png"></div>
+
+                        </div>
+                        <div class="swiper-button-next" style="color:#343a40"></div>
+                        <div class="swiper-button-prev" style="color:#343a40 "></div>
+                        <div class="swiper-pagination" style="color:#ea3128 "></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper(".grop-h", {
+                            breakpoints: {
+                                    300: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                                    },
+                                    640: {
+                                slidesPerView: 3,
+                                spaceBetween: 30,
+                                    },
+                                    991: {
+                                slidesPerView: 4,
+                                spaceBetween: 40,
+                                    },
+                                    },
+                            loop: true,
+                            loopFillGroupWithBlank: true,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+                            });
+
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--The web site tedx page eght-->
+    <div id="contant" class="contant">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="title/logoo.png">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                        <div class="icon">
+                            <a href="#"><i><img src="Icon/FacebookIcon.png">
+                                </i></a>
+
+                            <a href="#"><i><img src="Icon/InstagramIcon.png">
+                                </i></a>
+  
+                            <a href="#"><i><img src="Icon/TwitterIcon.png">
+                                </i></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+            <script src="bootstrap/js/popper.min.js"></script>
+            <script src="bootstrap/js/jquery-3.6.1.min.js"></script>
+            <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+
+</html>
